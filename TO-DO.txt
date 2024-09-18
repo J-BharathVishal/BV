@@ -2,4 +2,4 @@ Every day 1%
 Failure is better than regret
 Organize your mind
 Consistent is a key
-git 
+github
