@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="icon" href="">
+</head>
+<body>
+<input id="num1" type="text">
+<input id="num2" type="text">
+<h2 id="results">Result</h2>
+<button onclick="change()">ADD</button>
+</body>
+<script>
+function change()
+{
+    var num1 = document.getElementById("num1")
+    var num2 = document.getElementById("num2")
+    var result = Number(num1.value) + Number(num2.value)
+    results.textContent = result;
+}
+</script>
+</html>
